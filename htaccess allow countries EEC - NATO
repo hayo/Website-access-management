@@ -74,8 +74,3 @@ SetEnvIf GEOIP_COUNTRY_CODE_V6 US AllowCountry
 
 Deny from all  
 Allow from env=AllowCountry
-
-SetEnvIfNoCase Referer "^$" bad_user
-SetEnvIfNoCase User-Agent "^Mozlila" bad_user
-SetEnvIfNoCase Referer "^serpstatbot" bad_user
-SetEnvIfNoCase Referer "^AhrefsBot" bad_user
