@@ -1,0 +1,7 @@
+Bad bot user agents to block using htaccess
+
+SetEnvIfNoCase Referer "^$" bad_user
+SetEnvIfNoCase User-Agent "^Mozlila" bad_user
+SetEnvIfNoCase Referer "^serpstatbot" bad_user
+SetEnvIfNoCase Referer "^AhrefsBot" bad_user
+Deny from env=bad_user
