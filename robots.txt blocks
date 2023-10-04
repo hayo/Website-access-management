@@ -1,0 +1,46 @@
+Do you still believe in robots.txt?  Here's a list of crawlers you'll probably want to block.
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: Applebot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Sogou Pic Spider
+Disallow: /
+
+User-agent: Sogou head spider
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: Sogou Orion spider
+Disallow: /
+
+User-agent: Sogou-Test-Spider
+Disallow: /
+
+User-agent: GoogleOther
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-Agent: FacebookBot
+Disallow: /
