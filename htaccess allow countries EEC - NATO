@@ -1,76 +1,104 @@
-SetEnvIf GEOIP_COUNTRY_CODE AL AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE AT AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE BE AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE BG AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE CA AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE HR AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE CY AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE CZ AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE DK AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE EE AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE FI AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE FR AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE DE AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE GR AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE HU AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE IS AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE IE AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE IT AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE LV AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE LT AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE LU AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE MT AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE ME AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE NL AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE MK AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE NO AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE PL AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE PT AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE RO AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE SK AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE SI AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE ES AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE SE AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE TR AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE GB AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE US AllowCountry
+# Set environment variables for countries and their memberships
+SetEnvIf GEOIP_COUNTRY_CODE AL AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE AT AllowCountry # Member of EEC
+SetEnvIf GEOIP_COUNTRY_CODE BE AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE BG AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE CA AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE HR AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE CY AllowCountry # Member of EEC
+SetEnvIf GEOIP_COUNTRY_CODE CZ AllowCountry # Member of EEC
+SetEnvIf GEOIP_COUNTRY_CODE DK AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE EE AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE FI AllowCountry # Member of EEC
+SetEnvIf GEOIP_COUNTRY_CODE FR AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE DE AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE GR AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE HU AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE IS AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE IE AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE IT AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE LV AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE LT AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE LU AllowCountry # Member of EEC
+SetEnvIf GEOIP_COUNTRY_CODE MT AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE ME AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE NL AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE MK AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE NO AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE PL AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE PT AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE RO AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE SK AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE SI AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE ES AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE SE AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE TR AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE GB AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE US AllowCountry # Member of NATO
 
-SetEnvIf GEOIP_COUNTRY_CODE_V6 AL AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 AT AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 BE AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 BG AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 CA AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 HR AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 CY AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 CZ AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 DK AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 EE AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 FI AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 FR AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 DE AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 GR AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 HU AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 IS AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 IE AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 IT AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 LV AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 LT AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 LU AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 MT AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 ME AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 NL AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 MK AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 NO AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 PL AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 PT AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 RO AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 SK AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 SI AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 ES AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 SE AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 TR AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 GB AllowCountry
-SetEnvIf GEOIP_COUNTRY_CODE_V6 US AllowCountry
+# IPv6 Addresses
+SetEnvIf GEOIP_COUNTRY_CODE_V6 AL AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 AT AllowCountry # Member of EEC
+SetEnvIf GEOIP_COUNTRY_CODE_V6 BE AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 BG AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 CA AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 HR AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 CY AllowCountry # Member of EEC
+SetEnvIf GEOIP_COUNTRY_CODE_V6 CZ AllowCountry # Member of EEC
+SetEnvIf GEOIP_COUNTRY_CODE_V6 DK AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 EE AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 FI AllowCountry # Member of EEC
+SetEnvIf GEOIP_COUNTRY_CODE_V6 FR AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 DE AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 GR AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 HU AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 IS AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 IE AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 IT AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 LV AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 LT AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 LU AllowCountry # Member of EEC
+SetEnvIf GEOIP_COUNTRY_CODE_V6 MT AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 ME AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 NL AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 MK AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 NO AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 PL AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 PT AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 RO AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 SK AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 SI AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 ES AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 SE AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 TR AllowCountry # Member of NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 GB AllowCountry # Member of EEC and NATO
+SetEnvIf GEOIP_COUNTRY_CODE_V6 US AllowCountry # Member of NATO
+
+SetEnvIf GEOIP_COUNTRY_CODE_V6 AR AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 AU AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 BH AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 EG AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 IL AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 JP AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 JO AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 KW AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 MA AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 NZ AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 KR AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE_V6 TN AllowCountry # Major Non-NATO Ally
+
+SetEnvIf GEOIP_COUNTRY_CODE AR AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE AU AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE BH AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE EG AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE IL AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE JP AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE JO AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE KW AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE MA AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE NZ AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE KR AllowCountry # Major Non-NATO Ally
+SetEnvIf GEOIP_COUNTRY_CODE TN AllowCountry # Major Non-NATO Ally
 
 Deny from all  
 Allow from env=AllowCountry
